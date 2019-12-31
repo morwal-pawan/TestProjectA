@@ -1,0 +1,50 @@
+.team_card{
+  max-width: 300px;
+  .header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .title{
+      padding: 4px;
+      font-weight: 600;
+    }
+  }
+  .teams{
+    padding: 4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    .vs{
+      padding: 0 12px;
+    }
+  .teamDetails{
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+     .container{
+        position: relative;
+        .avatar {
+          width: 54px;
+          height: 54px;
+          border-radius: 50%;
+          position: absolute;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          top: 14px;
+          left: 22px;
+      
+        }
+        .logo{
+          width: 100px;
+        }
+      }
+      
+    }
+    
+  }
+  .cardActions{
+    
+  }
+}
